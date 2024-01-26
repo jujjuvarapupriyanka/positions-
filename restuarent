@@ -1,0 +1,104 @@
+<html>
+    <body>
+        <head>
+            <style>
+                fieldset{
+                    background-color: rgb(134, 153, 153);
+                    height: 100px;
+                    width: 200px;
+                    border: 3px solid rgb(105, 103, 103);
+                }
+                legend{
+                    background-color: black;
+                    color: white;
+                }
+                .one{
+                     color: rgb(233, 75, 13);
+                     background-color: rgb(183, 219, 219);
+                     border: 3px solid black;
+                     font-size: large;
+                }
+                img{
+                    float: right;
+                    background-color: blue;
+            
+                    
+                }
+                .two{
+                    color: rgb(233, 75, 13);
+                     background-color: rgb(183, 219, 219);
+                     border: 3px solid black;
+                     font-size: large;
+                }
+                *{
+                    background-color: yellowgreen;
+                }
+            
+                .Query{
+                background-color: gray;
+                position: sticky;
+                padding:20px;
+                top:0px;
+                bottom:4px;
+                transform: translate(50px);
+                }
+                .Query:hover{
+                    background-color: black;
+                    color: blue;
+                }
+                #button{
+                    background-color: blueviolet;
+                }
+                #button:hover{
+                    background-color: rgb(74, 14, 240);
+                    color: brown;
+                }
+
+
+
+
+
+            </style>
+        </head>
+        <h1 style="background-color: black;color: white;"><img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">PRIYA'S Restaurent</h1>
+        <hr>
+        <h2 style="background-color: black;color: white;">MENU</h2>
+        <hr>
+        <h2 style="background-color: black;color: white;">non-veg</h2>
+        <hr>
+        <pre class="one">
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">chicken biryani
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">chicken fry piece biryani
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">prawns biryani
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">fish biryani
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">mutton biryani
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">mixed biryani
+             <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">all non veg curries
+        </pre>
+       <h2 style="background-color: black;color: white;">veg</h2>
+       <hr>
+       <pre class="two">
+            <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">veg biryani
+            <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">paneer biryani
+            <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">aamras ki kadhi
+            <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">dahi kebab
+            <img src="./star_rate_FILL0_wght400_GRAD0_opsz24.png">mushroom kofta in tamato gravy
+       </pre>
+       <h2 style="background-color: black;color: white;">location</h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121836.03579713897!2d78.32688414335936!3d17.393728499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9763155bd88b%3A0xba689984c669a478!2sPriya%20Bar%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1706292238103!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <hr>
+
+        <div class="Query">
+            <input type="text" placeholder="Any queries">
+            <input type="button" id="button" value="Submit">
+        </div>  
+
+    <hr>
+    <h3 style="background-color: black;color: white; text-align: center;">thanQ visit again</h3>
+    
+       
+
+    
+
+       
+    </body>
